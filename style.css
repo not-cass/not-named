@@ -1,20 +1,17 @@
+@keyframes mymove {
+  0% {
+    background-color: #cfe8d5;
+  }
+  50% {
+    background-color: #f5c6d6;
+  }
+  100% {
+    background-color: #cfe8d5;
+  }
 body {
   margin: 0;
   min-height: 100vh;
   animation: mymove 10s infinite alternate ease-in-out;
-}
-
-@keyframes mymove {
-  from {
-    background-color: #cfe8d5; /* pastel green */
-  }
-  to {
-    background-color: #f5c6d6; /* pastel pink */
-  }
-    
-
-h1, h2, h3 {
-  color: #222;
 }
 
 p {
