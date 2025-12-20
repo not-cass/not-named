@@ -1,15 +1,16 @@
+/* Animate the body background color */
+@keyframes colorShift {
+  0% { background-color: #cfe8d5; }
+  25% { background-color: #f5c6d6; }
+  50% { background-color: #d5c6f5; }
+  75% { background-color: #f5e8c6; }
+  100% { background-color: #cfe8d5; }
+}
+
 body {
   margin: 0;
   min-height: 100vh;
-  background: linear-gradient(270deg, #cfe8d5, #f5c6d6, #cfe8d5);
-  background-size: 600% 600%;
-  animation: gradientShift 15s ease infinite;
-}
-
-@keyframes gradientShift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  animation: colorShift 15s infinite ease-in-out;
 }
 
 p {
