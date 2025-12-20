@@ -11,6 +11,8 @@ body {
   min-height: 100vh;
   animation: colorShift 15s infinite ease-in-out;
   text-align: center;
+  cursor: url('cursor'), auto;
+}
 }
 
 p {
