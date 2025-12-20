@@ -13,7 +13,7 @@ body {
   min-height: 100vh;
   animation: mymove 10s infinite alternate ease-in-out;
 }
-
+}
 p {
   font-size: 18px;
 }
