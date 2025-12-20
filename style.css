@@ -8,12 +8,12 @@
   100% {
     background-color: #cfe8d5;
   }
-body {
+  body {
   margin: 0;
   min-height: 100vh;
   animation: mymove 10s infinite alternate ease-in-out;
 }
-}
+
 p {
   font-size: 18px;
 }
