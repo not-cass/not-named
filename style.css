@@ -11,7 +11,7 @@ body {
   min-height: 100vh;
   animation: colorShift 15s infinite ease-in-out;
   text-align: center;
-  cursor: url('Bubble Gum.cur'), auto;
+  cursor: url('BubbleGum.cur'), auto;
 }
 
 p {
